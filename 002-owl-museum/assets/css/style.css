@@ -1,0 +1,87 @@
+body {
+    font-family: "Playfair Display", serif, sans-serif;
+    color: #f0f6fc;
+    background-color: #aec3b0;
+}
+
+.blurb h2 {
+    color: #c5283d;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #f7ede2;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand {
+    color: #c5283d;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: #eae0d5;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #c5283d;
+}
+
+#headingGroup h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#headingGroup span {
+    color: #c5283d;
+}
+
+#svgIcons {
+    margin: 1.5rem;
+    width: 64px;
+    height: 64px;
+    color: #fefae0;
+}
+
+.navbar.scrolled {
+    background-color: #c6ac8f;
+    transition: background-color 500ms;
+}
+
+@media(max-width: 1320px) {
+    #headingGroup h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 1200px) {
+    #headingGroup h2 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 1050px) {
+    #headingGroup h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+@media(max-width: 1070px) {
+    .blurb h2 {
+        font-size: 2.0rem;
+    }
+}
