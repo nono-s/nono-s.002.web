@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav {
+    margin-left:calc(10%/6);
+    padding: 0.75em 0;
+    width: 30%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e0e1dd;
+}
+
+img {
+    margin: calc(10%/6);
+    width: 30%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+img:nth-of-type(2) {
+    object-position: top left;
+}
+
+footer p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 0.85em;
+    color: #6c757d;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
